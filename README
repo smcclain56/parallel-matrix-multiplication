@@ -1,0 +1,24 @@
+README
+@AUTHOR Sarah McClain 
+@DATE 3/25/19
+
+[INTRODUCTION]
+
+Homework 5 is a matrix multiplication program that compares the speed up for a sequential vs multithreaded calculation
+
+[CONTENTS]
+
+Homework 4 contains several files:
+
+	* matrixMult.c, which contains functions that relate to manipulation of the matrices; initMatrix(), initResult(), compareMatrix(), printMatrix(), seqMult() and parallelMult(). 
+	* rtclock.c, which contains functions used for timing the code
+	* main.c which interacts with the user. Accepts either sequential or parallel mode and calculates time depending on input.
+	* This README.
+
+[USE]
+
+	* Run the `make` command in console to compile the full program.
+	* Run ./mmm P N size to run a parallel matrix multiplication with N threads on a matrix with size size.
+		-Must input number of threads
+	* Run ./mmm S size to run a sequential matrix multiplication on a square matrix of size size. 
+	* Run make clean to clear executables 
